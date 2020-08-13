@@ -34,7 +34,7 @@ void termhandler(int signum);
 static Display *dpy;
 static int screen;
 static Window root;
-static char statusbar[LENGTH(blocks)][CMDLENGTH] = {0};
+static char statusbar[LENGTH(blocks)+2][CMDLENGTH] = {0};
 static char statusstr[2][256];
 static int statusContinue = 1;
 static void (*writestatus) () = setroot;
@@ -88,9 +88,10 @@ void getcmd(const Block *block, char *output)
 void getcmds(int time)
 {
 	const Block* current;
+	strcpy(statusbar[0], " ");// adds " " to start of dwmblocks
 	for(int i = 0; i < LENGTH(blocks); i++)
 	{
-		current = blocks + i;
+		current = blocks + i  ;
 		if ((current->interval != 0 && time % current->interval == 0) || time == -1)
 			getcmd(current,statusbar[i]);
 	}
