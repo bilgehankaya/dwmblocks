@@ -1,14 +1,15 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"",	"dummy",	0,	50}, // dummy block
+	/* {"",	"dummy",	0,	50}, // dummy block */
 	{"", 	"cat /tmp/recordingicon 2>/dev/null",	0,	9},
 	/* {"",	"music",	0,	11}, */
+	/* {"",    "doviz", 	1,	20}, */
 	{"",    "net_speed", 	1,	21},
 	{"",	"torrent",	20,	7},
 	{"", 	"vpn --status", 20,	19},
 	/* {"",	"crypto btc",	0,	13}, */
 	/* {"",	"crypto eth",	0,	13}, */
-	{"",	"volume",	0,	10},
+	{"",	"volume",	60,	10},
 	{"", 	"memory",	1,	14},
 	{"",	"battery",	10,	3},
 	{"",	"date_time -d",	20,	1},
