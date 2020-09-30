@@ -4,7 +4,7 @@ static const Block blocks[] = {
 	{"", 	"cat /tmp/recordingicon 2>/dev/null",	0,	9},
 	/* {"",	"music",	0,	11}, */
 	/* {"",    "doviz", 	1,	20}, */
-	{"",    "net_speed", 	1,	21},
+	{"",    "~/netspeed", 	1,	21},
 	{"",	"torrent",	20,	7},
 	{"", 	"vpn --status", 20,	19},
 	/* {"",	"crypto btc",	0,	13}, */
@@ -12,8 +12,8 @@ static const Block blocks[] = {
 	{"",	"volume",	60,	10},
 	{"", 	"memory",	1,	14},
 	{"",	"battery",	10,	3},
-	{"",	"date_time -d",	20,	1},
-	{"",	"date_time -c",	10,	1},
+	{"",	"datetime -d",	20,	1},
+	{"",	"datetime -c",	10,	1},
 	/* {"",	"internet",	10,	4}, */
 	{"",	"keyboard -s",	0,	25},
 };
