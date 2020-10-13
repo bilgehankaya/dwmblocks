@@ -14,7 +14,7 @@ static const Block blocks[] = {
 	{"",	"battery",	10,	3},
 	{"",	"datetime -d",	20,	1},
 	{"",	"datetime -c",	10,	1},
-	/* {"",	"internet",	10,	4}, */
+	{"",	"internet",	10,	4},
 	{"",	"keyboard -s",	0,	25},
 };
 
