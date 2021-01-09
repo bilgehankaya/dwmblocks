@@ -137,10 +137,11 @@ int getstatus(char *str, char *last)
 	strcpy(last, str);
 	str[0] = '\0';
     for(int i = 0; i < LENGTH(blocks); i++) {
-	        if(i==0) strcat(str, " ");
+        /* Commented after systray patch */
+	    /* if(i==0) strcat(str, " "); */
 		strcat(str, statusbar[i]);
         if (i == LENGTH(blocks) - 1)
-            strcat(str, " ");
+            strcat(str, delim);
     }
 	str[strlen(str)-1] = '\0';
 	return strcmp(str, last);//0 if they are the same
