@@ -4,8 +4,8 @@ static const Block blocks[] = {
 	{"",    "netspeed", 	1,	21},
 	/* {"",	"torrent",	20,	7}, */
 	{"", 	"vpn -s", 	20,	19},
-	/* {"",	"crypto btc",	0,	13}, */
-	/* {"",	"crypto eth",	0,	13}, */
+	{"",	"crypto btc",	0,	13},
+	{"",	"crypto eth",	0,	13},
     /* {"",    "news -s",  0,  6}, */
 	{"",	"volume",	20,	10},
 	{"", 	"memory",	1,	14},
