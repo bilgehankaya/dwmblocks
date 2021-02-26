@@ -2,7 +2,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	/* {"",    "doviz", 	1,	20}, */
 	{"",    "netspeed", 	1,	21},
-	/* {"",	"torrent",	20,	7}, */
+	{"",	"torrent",	20,	7},
 	{"", 	"vpn -s", 	20,	19},
 	{"",	"crypto btc",	0,	13},
 	{"",	"crypto eth",	0,	13},
