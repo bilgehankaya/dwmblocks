@@ -14,7 +14,7 @@ static const Block blocks[] = {
 	{"",	"datetime -c",	20,	1},
 	/* {"",	"internet",	10,	4}, */
 	{"",	"keyboard -s",	0,	25},
-  {"",	"timercontrol",	3,	18},
+  /* {"",	"timercontrol",	3,	18}, */
 };
 
 /* sets delimeter between status commands. NULL character ('\0') means no delimeter. */
