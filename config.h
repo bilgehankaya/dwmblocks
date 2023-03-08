@@ -10,8 +10,9 @@ static const Block blocks[] = {
 	{"",	"volume",	20,	10},
 	{"", 	"memory",	1,	14},
 	{"",	"battery",	30,	3},
-	{"",	"datetime -d",	60,	1},
-	{"",	"datetime -c",	20,	1},
+	{"",	"datetime -us",	60,	1},
+	{"",	"datetime -t",	20,	1},
+	{"",	"datetime -tr",	20,	1},
 	/* {"",	"internet",	10,	4}, */
 	{"",	"keyboard -s",	0,	25},
   {"",	"timercontrol",	3,	18},
